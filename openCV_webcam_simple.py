@@ -1,5 +1,6 @@
 import cv2
 print(cv2.__version__)
+import math
 
 cam = cv2.VideoCapture(0) # try 1, 2 or 3 if you have error
 
